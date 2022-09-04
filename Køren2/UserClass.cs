@@ -22,5 +22,11 @@ namespace Køren2
         {
             this.name = name;
         }
+
+        //Override ToString
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }
